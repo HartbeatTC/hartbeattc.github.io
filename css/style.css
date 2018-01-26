@@ -17,7 +17,7 @@
   }
 
 
-.overlay {
+.caroverlay {
   border-radius: 10%;
   width: 100px;
   height: 100px;
@@ -70,7 +70,7 @@ p {
 
 }
 
-.btn-primary {
+/*.btn-primary {
   padding: 8px 20px;
   background: #fff;
   color: #000;
@@ -85,7 +85,7 @@ p {
   color:#2487cd;
   outline: none;
   box-shadow: none;
-}
+}*/
 
 
 /* --- logo --- */
@@ -312,8 +312,9 @@ p {
 }
 
 .portfolio-item {
-  margin: 0;
-  padding:0;
+  margin: 0px;
+  padding: 3px;
+  border-radius: 10px;
 }
 
 /* Start: Recommended Isotope styles */
@@ -381,6 +382,7 @@ p {
 
 .recent-work-wrap img{
   width: 100%;
+  border-radius: 8px;
 }
 
 .recent-work-wrap .recent-work-inner{
