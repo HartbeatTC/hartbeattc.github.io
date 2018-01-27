@@ -31,7 +31,7 @@ z-index: 10;
 pointer-events: none;
   }
      @media (min-width: 768px) and (max-width: 979px) {
-      .overlay{
+      .caroverlay{
 
          width:50%;
         height:50%;
@@ -39,17 +39,28 @@ pointer-events: none;
  }
 
   @media (max-width: 767px) {
-     .overlay{
+     .caroverlay{
 
   width:50%;
   height:50%;
   }
 
+  body .site-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 10px;
+    font-size:
+  }
+
+  body .site-logo a.brand {
+    font-size: 20px;
+  }
+
   }
 @media (max-width: 480px) {
-   .overlay{
-   width:50%;
-  height:50%;
+   .caroverlay{
+   display: none;
 
   }
 }
