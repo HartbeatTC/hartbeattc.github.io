@@ -15,7 +15,9 @@
     width: 100px;
     height: 100px;*/
   }
-
+  .carousel .item img {
+  max-height: 768px;
+}
 
 .caroverlay {
   border-radius: 10%;
