@@ -8,7 +8,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 
+.toc {
+  position: fixed;
+  border: 5px;
+  width: 30%
+}
 
+
+.nav-pills>li {
+   border: 1px solid #C3C3C3;
+   border-radius: 5px;
+   margin-bottom: 5px;
+   background-color: #F7F7F7
+}
 .circle
   {
     /*border-radius: 10%;
