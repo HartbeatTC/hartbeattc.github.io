@@ -8,6 +8,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 
+
+.glyphicon {
+    font-size: 60px;
+}
+
 .toc {
   position: fixed;
   border: 5px;
